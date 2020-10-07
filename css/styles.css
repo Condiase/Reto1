@@ -1,0 +1,134 @@
+.ContenedorFlex{
+    background-color: white;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.MenuSuperior{
+    display: flex;
+    width: 100%;
+    height:3em;
+    background-color: rgba(240, 238, 238, 0.993);
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Contenido{  
+    color:#444;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.ImagenInicio{
+    width: 300px;
+    height: 300px;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    padding:1em;
+}
+
+a{
+    text-decoration: none;
+    padding: 5px;
+    background-color:rgba(207, 204, 204, 0.808);
+    color:rgb(12, 20, 126);
+    border-style: solid;
+    border-color: rgba(99, 98, 98, 0.932);
+    border-radius: 10px;
+    font-family: sans-serif;    
+}
+
+a:hover{
+    background-color: rgb(10, 42, 223)  ;
+    color:rgb(186, 227, 243);
+}
+
+footer{
+    text-align: center;
+    color: rgb(95, 93, 93);
+    font-family: sans-serif;
+    font-size: small
+}
+
+.contenedorGrid{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    grid-template-rows: 70px 30px 200px 100px;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: small;  
+}
+
+.encabezadoGrid{
+    grid-column:1/5;
+    grid-row:1;
+}
+
+.telefono{
+    grid-column:2;
+    grid-row:2;
+}
+
+.mailGrid{
+    grid-column:3;
+    grid-row:2;
+}
+
+.mapaGrid{
+    grid-column:2/4;
+    grid-row:3;
+}
+.mapaGrid>img{
+    object-fit:contain;
+    width:100%;
+    height:100%;
+}
+
+.direccionGrid{
+    grid-column:2;
+    grid-row:4;  
+}
+
+
+.ContenedorCalc{
+    display: grid;
+    width: 300px;
+    height:400px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3em 1fr;
+    background-color: rgb(211, 204, 204);
+    justify-content:center;
+}
+
+.CalcPantalla{
+    border-radius: 5px;
+    width: 300px;
+    border-style: solid;
+    border-color: black;
+    font-size: large;
+    background-color: white;
+    word-wrap: break-word;
+}
+
+.CalcBotonera{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: rgb(211, 204, 204);
+    justify-content:center;
+}
+
+button{
+    font-size: large;
+}
